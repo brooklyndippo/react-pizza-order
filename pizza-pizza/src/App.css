@@ -1,0 +1,35 @@
+.App {
+  height: 100vh;
+  text-align: left;
+  background-color: #282828;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+.order-menu form{
+  max-width: 20vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+input {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  background-color: limegreen;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100px;
+}
